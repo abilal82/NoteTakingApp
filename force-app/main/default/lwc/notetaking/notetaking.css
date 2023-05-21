@@ -1,0 +1,51 @@
+:host(){
+    --dodger-blue: rgb(41, 119, 197);
+    --white:#fff;
+  }
+
+.app  {
+    background: var(--dodger-blue);
+    font-size: 16px;
+    min-height: 100vh;
+    padding: 16px;
+
+}
+
+.box {
+    background: var(--white);
+    height: 300px;
+    width: 300px;
+    border-radius: 16px;
+    margin: 16px;
+
+}
+
+
+.box-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.dotted-circle {
+    border: 2px solid var(--dodger-blue);
+    border-radius: 50%;
+    padding: 16px;
+    border-style: dotted;
+    cursor: pointer;
+
+}
+
+
+h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 12px;
+    color: var(--dodger-blue);
+}
+
+.custom-icon{
+    --slds-c-icon-color-foreground-default:var(--dodger-blue);
+  }
